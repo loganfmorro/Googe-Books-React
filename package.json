@@ -1,0 +1,19 @@
+{
+  "name": "googe-books-react",
+  "version": "1.0.0",
+  "description": "A full-stack application. A Book search/collection developed using REACT, MongoDB, Node, Express. Following the MVC design pattern; using Node and Mongoose to query and route data in the app and React to generate JSX.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loganfmorro/Googe-Books-React.git"
+  },
+  "author": "Logan Morro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loganfmorro/Googe-Books-React/issues"
+  },
+  "homepage": "https://github.com/loganfmorro/Googe-Books-React#readme"
+}
