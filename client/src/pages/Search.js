@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import API from "../utils/API";
+import API from "../utils/API.js";
 import Container from "../components/Container";
 import SearchForm from "../components/SearchForm";
 import Hero from "../components/Hero";
-import ResultsList from "../components/SearchResults/index";
+import ResultsList from "../components/SearchResults/index.js";
 import Row from "../components/Row";
 import Col from "../components/Col";
+
 
 class Search extends Component {
   constructor(props) {
@@ -42,7 +43,8 @@ render() {
   return (
 
     <div>
-      <Hero backgroundImage="https://www.nypl.org/sites/default/files/bookcase-1280x720.jpg">
+    
+      <Hero backgroundImage="https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bGlicmFyeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80">
         <h1>(React) Google Book Search</h1>
         <h2>Search for and save Books of Interest</h2>
       </Hero>
@@ -57,10 +59,11 @@ render() {
        <Row>
          <Col size="md-12">
          <ResultsList results={this.state.results}/>
+         
          </Col>
        </Row>
       </Container>
-
+      
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import API from "../../utils/API";
+import API from "../../utils/API.js";
 
 class Results extends Component {
 
@@ -29,7 +29,7 @@ class Results extends Component {
     render() {
         return (
             <div>
-                {!this.props.books.length ? (
+                {!this.props.books.length? (
                     <h1 className="text-center">No Results to Display</h1>
                 ) : (
                         <div>
