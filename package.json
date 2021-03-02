@@ -16,11 +16,14 @@
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
   },
-  
+
   "author": "Logan Morro",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/loganfmorro/Googe-Books-React/issues"
   },
-  "homepage": "https://github.com/loganfmorro/Googe-Books-React"
+  "homepage": "https://github.com/loganfmorro/Googe-Books-React",
+  "engines": {
+    "node": "14.x"
+  }
 }
